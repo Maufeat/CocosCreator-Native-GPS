@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "name": "location-provider",
   "description": "i18n:location-provider.description",
-  "main": "./dist/main.js",
   "devDependencies": {
     "@types/node": "^16.11.57",
     "typescript": "^4.3.4"
