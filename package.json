@@ -1,0 +1,33 @@
+{
+  "package_version": 2,
+  "version": "1.0.0",
+  "name": "location-provider",
+  "description": "i18n:location-provider.description",
+  "main": "./dist/main.js",
+  "devDependencies": {
+    "@types/node": "^16.11.57",
+    "typescript": "^4.3.4"
+  },
+  "author": "Maufeat (Sahin Habermann)",
+  "editor": ">=3.6.0",
+  "scripts": {
+    "build": "tsc -b",
+    "watch": "tsc -w"
+  },
+  "contributions": {
+    "asset-db": {
+      "mount": {
+        "path": "./assets",
+        "readonly": false
+      }
+    },
+    "builder": "./dist/builder.js"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/xml-js": "^1.0.0",
+    "fs-extra": "^10.1.0",
+    "node-expat": "^2.4.0",
+    "xml-js": "^1.6.11"
+  }
+}
